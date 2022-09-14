@@ -13,7 +13,7 @@ def item_cost(question):
 	valid = False
 	while not valid:
 		try:
-			response = int(input(question))
+			response = float(input(question))
 			if response <= 0:
 				print(error)
 			else:

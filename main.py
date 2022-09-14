@@ -39,7 +39,7 @@ def item_cost(question):
 	valid = False
 	while not valid:
 		try:
-			response = int(input(question))
+			response = float(input(question))
 			if response <= 0:
 				print(error)
 			else:
@@ -54,7 +54,6 @@ item_count = 0
 
 Recipe = Recipe_name("Name of recipe?\n", "Please enter a valid recipe name")
 print("Recipe name\n", Recipe)
-print()
 Servings = Serving_size("Serving size?\n")
 print("Serving size", Servings)
 
