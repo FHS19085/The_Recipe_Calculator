@@ -1,5 +1,5 @@
-import Recipe_name_serving_function
-print(Recipe_name_serving_function)
+import Ingredients_function_V2
+print(Ingredients_function_V2)
 
 # Functions
 def Recipe_name(question, error):
